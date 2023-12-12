@@ -31,6 +31,7 @@ protected:
     virtual ~DObject();
 
     QScopedPointer<DObjectPrivate> d_d_ptr;
+    QScopedPointer<DObjectPrivate> d_d_ptr_test;
 
     Q_DISABLE_COPY(DObject)
     D_DECLARE_PRIVATE(DObject)
