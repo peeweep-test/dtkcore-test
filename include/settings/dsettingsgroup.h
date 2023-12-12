@@ -34,6 +34,7 @@ public:
     QList<QPointer<DSettingsGroup> > childGroups() const;
     QList<QPointer<DSettingsOption> > childOptions() const;
     QList<QPointer<DSettingsOption> > options() const;
+    QList<QPointer<DSettingsOption> > testPptions() const;
 
     static QPointer<DSettingsGroup> fromJson(const QString &prefixKey, const QJsonObject &group);
 
