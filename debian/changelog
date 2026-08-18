@@ -1,3 +1,12 @@
+dtkcore (5.6.24) unstable; urgency=medium
+
+  * feat: use doc check from dtk
+  * Create call-synchronize-to-dtk6.yml
+  * Update call-doc-check.yml
+  * chore: add call-update-changelog workflow for testing
+
+ -- Test User <test@example.com>  Tue, 18 Aug 2026 20:21:41 +0800
+
 dtkcore (5.6.23) unstable; urgency=medium
 
   [ Astrea ]
